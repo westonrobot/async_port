@@ -1,6 +1,6 @@
-# Weston Robot Linux Driver for IO
+# Asynchronous UART/CAN
 
-Copyright (c) 2020 [WestonRobot](https://www.westonrobot.com/)
+Copyright (c) 2021 [WestonRobot](https://www.westonrobot.com/)
 
 ## Introduction
 
