@@ -63,7 +63,7 @@ add_library(wrp_asio INTERFACE)
 target_compile_definitions(wrp_asio INTERFACE "-DASIO_STANDALONE")
 target_include_directories(wrp_asio INTERFACE
 	$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include/async_port/asio/include>
-    $<INSTALL_INTERFACE:include/wrp_sdk/async_port>)
+    $<INSTALL_INTERFACE:include/async_port>)
 
 add_library(${PROJECT_NAME} 
     src/async_serial.cpp
